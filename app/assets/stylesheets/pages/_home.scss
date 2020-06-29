@@ -1,4 +1,8 @@
 // Specific CSS for your home-page
+body {
+  font-family: cursive;
+}
+
 .bg-color {
   background-color: #212121;
   height: 100vh;
@@ -6,8 +10,8 @@
 }
 
 .my-infos {
-  
-
+  display: flex;
+  justify-content: center;
 }
 
 .photo {
@@ -37,4 +41,14 @@
 .profession {
   color: teal;
   font-size: 16px;
+}
+
+.void {
+  height: 200px;
+}
+
+.description {
+  margin: 10px;
+  color: teal;
+
 }
