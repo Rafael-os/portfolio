@@ -4,3 +4,39 @@
   height: 100vh;
   width: 100%;
 }
+
+.my-infos {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+}
+
+.photo {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  line-height: 150px;
+}
+
+.details {
+  margin-left: 25px;
+}
+
+.name {
+  font-size: 28px;
+  font-family: 'Dancing Script', cursive;
+  color: teal;
+}
+
+.city {
+  color: teal;
+  font-size: 12px;
+}
+
+.profession {
+  color: teal;
+  font-size: 16px;
+}
