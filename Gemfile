@@ -36,6 +36,7 @@ gem 'simple_form'
 
 gem 'react-rails'
 gem 'chartkick'
+gem 'countries'
 
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
